@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 {
     public float speed = 2.5f;
     public float speedBuff = 3f;
-    public AudioClip potionDrink;
+    //public AudioClip potionDrink;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,12 +16,12 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float xInput = Input.GetAxis("Horizontal");
+        float xInput = Input.GetAxisRaw("Horizontal");
         // Debug.Log(xInput);
 
-        float yInput = Input.GetAxis("Vertical");
-        GetComponent<Animator>().SetFloat("xInput", xInput);
-        GetComponent<Animator>().SetFloat("yInput", yInput);
+        float yInput = Input.GetAxisRaw("Vertical");
+        //GetComponent<Animator>().SetFloat("xInput", xInput);
+        //GetComponent<Animator>().SetFloat("yInput", yInput);
 
         Vector2 moveDirection = new Vector2(xInput, yInput);
 
@@ -37,13 +37,13 @@ public class Movement : MonoBehaviour
         {
             speed += speedBuff;
             Destroy(collision.gameObject);
-            GetComponent<AudioSource>().PlayOneShot(potionDrink);
+            //GetComponent<AudioSource>().PlayOneShot(potionDrink);
         }
         if (otherTag == "DamagePowerUp")
         {
             EnemyHealth.damageAmount += 2;
             Destroy(collision.gameObject);
-            GetComponent<AudioSource>().PlayOneShot(potionDrink);
+            //GetComponent<AudioSource>().PlayOneShot(potionDrink);
         }
     }
 }

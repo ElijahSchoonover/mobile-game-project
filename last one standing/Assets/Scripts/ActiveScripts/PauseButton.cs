@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PauseButton : MonoBehaviour
 {
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,9 @@ public class PauseButton : MonoBehaviour
     void Update()
     {
         
+    }
+    public void TriggerPause()
+    {
+        PauseMenu.isPaused = true;
     }
 }
