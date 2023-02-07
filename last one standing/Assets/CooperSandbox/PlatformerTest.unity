@@ -1297,7 +1297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4f98a61b2c75bd4faf494898233068b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 20
   slider: {fileID: 1010431312}
   healthText: {fileID: 0}
   sceneName: PlatformerTest
@@ -4145,6 +4145,10 @@ PrefabInstance:
     - target: {fileID: 7165098072025268813, guid: 6bd4e414ecdf2614eae5fde917e1c4cc, type: 3}
       propertyPath: m_UseAutoMass
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7165098072025268813, guid: 6bd4e414ecdf2614eae5fde917e1c4cc, type: 3}
+      propertyPath: m_SleepingMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7165098072025268815, guid: 6bd4e414ecdf2614eae5fde917e1c4cc, type: 3}
       propertyPath: m_RootOrder
