@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - End
+  - DamageTag
   layers:
   - Default
   - TransparentFX

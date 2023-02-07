@@ -29,9 +29,27 @@ public class Health : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         string otherTag = collision.gameObject.tag;
-        if (otherTag == "DamageTag")
+        if (otherTag == "DamageTag" && Dificulty.isNormal == true)
         {
             health -= 2;
+            slider.value = health;
+            if (health <= 0)
+            {
+                SceneManager.LoadScene(sceneName);
+            }
+        }
+        else if (otherTag == "DamageTag" && Dificulty.isEasy == true)
+        {
+            health--;
+            slider.value = health;
+            if (health <= 0)
+            {
+                SceneManager.LoadScene(sceneName);
+            }
+        }
+        else if (otherTag == "DamageTag" && Dificulty.isHard == true)
+        {
+            health -= 3;
             slider.value = health;
             if (health <= 0)
             {
