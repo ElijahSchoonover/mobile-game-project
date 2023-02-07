@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Dificulty : MonoBehaviour
 {
     public static bool isEasy = false;
-    public static bool isNormal = false;
+    public static bool isNormal = true;
     public static bool isHard = false;
     public string easySceneName;
     public string normalSceneName;

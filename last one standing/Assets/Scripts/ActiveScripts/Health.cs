@@ -4,9 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
+using System;
 public class Health : MonoBehaviour
 {
-    public int health = 10;
+    public float health = 10.0f;
     public Slider slider;
     //public int maxHealth = 10;
     public TextMeshProUGUI healthText;
@@ -17,6 +18,16 @@ public class Health : MonoBehaviour
     //public AudioClip potionDrink;
     void Start()
     {
+        if (Dificulty.isEasy == true)
+        {
+            health *= 1.5f;
+            health = MathF.Ceiling(health);
+        }
+        else if (Dificulty.isHard == true)
+        {
+            health *= 0.75f;
+            health = MathF.Ceiling(health);
+        }
         slider.maxValue = health;
         slider.value = health;
     }
