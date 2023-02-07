@@ -101,6 +101,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -234,8 +258,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
+        x: 192
+        y: 192
         width: 32
         height: 32
       alignment: 0
@@ -255,7 +279,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_7
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 160
         width: 32
         height: 32
@@ -276,7 +300,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_8
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 160
         width: 32
         height: 32
@@ -297,7 +321,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_9
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 160
         width: 32
         height: 32
@@ -318,7 +342,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_10
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 160
         width: 32
         height: 32
@@ -339,7 +363,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_11
       rect:
         serializedVersion: 2
-        x: 160
+        x: 128
         y: 160
         width: 32
         height: 32
@@ -360,8 +384,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
+        x: 160
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -381,8 +405,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_13
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
+        x: 192
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -402,7 +426,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_14
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 128
         width: 32
         height: 32
@@ -423,7 +447,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_15
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 128
         width: 32
         height: 32
@@ -444,7 +468,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_16
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 128
         width: 32
         height: 32
@@ -465,7 +489,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_17
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 128
         width: 32
         height: 32
@@ -486,8 +510,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_18
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 128
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -507,8 +531,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_19
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
+        x: 160
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -528,8 +552,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_20
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
+        x: 192
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -549,7 +573,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_21
       rect:
         serializedVersion: 2
-        x: 96
+        x: 0
         y: 96
         width: 32
         height: 32
@@ -570,7 +594,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_22
       rect:
         serializedVersion: 2
-        x: 128
+        x: 32
         y: 96
         width: 32
         height: 32
@@ -591,7 +615,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_23
       rect:
         serializedVersion: 2
-        x: 160
+        x: 64
         y: 96
         width: 32
         height: 32
@@ -612,8 +636,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 96
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -633,8 +657,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_25
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
+        x: 128
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -654,8 +678,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_26
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
+        x: 160
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -675,8 +699,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_27
       rect:
         serializedVersion: 2
-        x: 96
-        y: 64
+        x: 192
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -696,7 +720,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_28
       rect:
         serializedVersion: 2
-        x: 128
+        x: 0
         y: 64
         width: 32
         height: 32
@@ -717,7 +741,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_29
       rect:
         serializedVersion: 2
-        x: 160
+        x: 32
         y: 64
         width: 32
         height: 32
@@ -738,8 +762,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 64
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -759,8 +783,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_31
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
+        x: 96
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -780,8 +804,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_32
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
+        x: 128
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -801,8 +825,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_33
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
+        x: 160
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -822,8 +846,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_34
       rect:
         serializedVersion: 2
-        x: 128
-        y: 32
+        x: 192
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -843,7 +867,7 @@ TextureImporter:
       name: Chunk1BaseTilesets_35
       rect:
         serializedVersion: 2
-        x: 160
+        x: 0
         y: 32
         width: 32
         height: 32
@@ -864,8 +888,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_36
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 32
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -885,8 +909,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_37
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
+        x: 64
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -906,8 +930,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_38
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 96
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -927,8 +951,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_39
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 128
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -948,8 +972,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_40
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
+        x: 160
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -969,8 +993,8 @@ TextureImporter:
       name: Chunk1BaseTilesets_41
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
+        x: 192
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -986,6 +1010,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Chunk1BaseTilesets_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81a96c7a1670c04d891003e956ba10e
+      internalID: 975654837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chunk1BaseTilesets_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aeb4964c5aba3488cbe774ed528efd
+      internalID: 216373653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chunk1BaseTilesets_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df9edd8c01731342834fa6bd7ab0a75
+      internalID: -491101229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -997,28 +1084,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Chunk1BaseTilesets_41: -472811771
       Chunk1BaseTilesets_40: 539021518
-      Chunk1BaseTilesets_30: 95331704
       Chunk1BaseTilesets_28: -481042921
-      Chunk1BaseTilesets_18: 1421146263
       Chunk1BaseTilesets_0: -457822724
-      Chunk1BaseTilesets_17: -279914352
-      Chunk1BaseTilesets_20: 284807701
-      Chunk1BaseTilesets_32: 964289956
-      Chunk1BaseTilesets_7: -470876388
       Chunk1BaseTilesets_24: 941959713
-      Chunk1BaseTilesets_8: -1288704372
-      Chunk1BaseTilesets_21: 1250896912
-      Chunk1BaseTilesets_38: 1661443191
       Chunk1BaseTilesets_36: -319977450
+      Chunk1BaseTilesets_21: 1250896912
       Chunk1BaseTilesets_31: -2113903087
-      Chunk1BaseTilesets_15: -382563474
-      Chunk1BaseTilesets_13: -740513685
-      Chunk1BaseTilesets_9: 1647630420
-      Chunk1BaseTilesets_29: 786325759
-      Chunk1BaseTilesets_22: -2059873725
-      Chunk1BaseTilesets_26: 2088449558
       Chunk1BaseTilesets_11: 909182169
       Chunk1BaseTilesets_33: -1882473716
       Chunk1BaseTilesets_2: -1144963155
@@ -1028,17 +1100,35 @@ TextureImporter:
       Chunk1BaseTilesets_19: 2122046134
       Chunk1BaseTilesets_3: -1697042218
       Chunk1BaseTilesets_5: 120986212
+      Chunk1BaseTilesets_25: -814885819
+      Chunk1BaseTilesets_35: -502633427
+      Chunk1BaseTilesets_42: 975654837
+      Chunk1BaseTilesets_16: -1840036326
+      Chunk1BaseTilesets_37: 558043833
+      Chunk1BaseTilesets_41: -472811771
+      Chunk1BaseTilesets_30: 95331704
+      Chunk1BaseTilesets_32: 964289956
+      Chunk1BaseTilesets_18: 1421146263
+      Chunk1BaseTilesets_17: -279914352
+      Chunk1BaseTilesets_20: 284807701
+      Chunk1BaseTilesets_7: -470876388
+      Chunk1BaseTilesets_8: -1288704372
+      Chunk1BaseTilesets_38: 1661443191
+      Chunk1BaseTilesets_15: -382563474
+      Chunk1BaseTilesets_44: -491101229
+      Chunk1BaseTilesets_13: -740513685
+      Chunk1BaseTilesets_9: 1647630420
+      Chunk1BaseTilesets_29: 786325759
+      Chunk1BaseTilesets_22: -2059873725
+      Chunk1BaseTilesets_26: 2088449558
+      Chunk1BaseTilesets_43: 216373653
+      Chunk1BaseTilesets_39: -1880739674
       Chunk1BaseTilesets_23: -321952118
       Chunk1BaseTilesets_10: -1952101657
-      Chunk1BaseTilesets_25: -814885819
       Chunk1BaseTilesets_27: -132857681
       Chunk1BaseTilesets_34: 870677490
       Chunk1BaseTilesets_4: -666005257
-      Chunk1BaseTilesets_39: -1880739674
-      Chunk1BaseTilesets_16: -1840036326
       Chunk1BaseTilesets_12: 546161517
-      Chunk1BaseTilesets_37: 558043833
-      Chunk1BaseTilesets_35: -502633427
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
