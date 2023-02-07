@@ -407,6 +407,7 @@ GameObject:
   - component: {fileID: 901516589}
   - component: {fileID: 901516588}
   - component: {fileID: 901516587}
+  - component: {fileID: 901516591}
   m_Layer: 5
   m_Name: Dificulty
   m_TagString: Untagged
@@ -499,6 +500,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &901516591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901516586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a378285bbd92fd4ba8acd810a202ee9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easySceneName: 
+  normalSceneName: 
+  hardSceneName: 
 --- !u!1 &1252132444
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,7 +598,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1252132447}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 901516591}
+        m_TargetAssemblyTypeName: Dificulty, Assembly-CSharp
+        m_MethodName: NormalMode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1252132447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -907,7 +935,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1555408874}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 901516591}
+        m_TargetAssemblyTypeName: Dificulty, Assembly-CSharp
+        m_MethodName: EasyMode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1555408874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1248,7 +1288,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2052652118}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 901516591}
+        m_TargetAssemblyTypeName: Dificulty, Assembly-CSharp
+        m_MethodName: HardMode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2052652118
 MonoBehaviour:
   m_ObjectHideFlags: 0
