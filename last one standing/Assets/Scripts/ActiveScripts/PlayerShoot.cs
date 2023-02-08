@@ -22,9 +22,8 @@ public class PlayerShoot : MonoBehaviour
         timer += Time.deltaTime;
         if (Time.timeScale == 1)
         {
-            if (Input.GetButtonDown("Fire1") && timer >= shootDelay && currentAmmo > 0)
+            if (Input.GetButtonDown("Fire1") && timer >= shootDelay && currentAmmo > 0 && Time.timeScale == 1)
             {
-                currentAmmo--;
                 GameObject bulletSpawn = Instantiate(bullet, transform.position, Quaternion.identity);
                 Vector3 mousePosition = Input.mousePosition;
                 mousePosition.z = -Camera.main.transform.position.z;
@@ -35,6 +34,8 @@ public class PlayerShoot : MonoBehaviour
                 Destroy(bulletSpawn, bulletLifeTime);
                 GetComponent<AudioSource>().PlayOneShot(shootSound);
                 timer = 0;
+                currentAmmo--;
+
             }
         }
         ammoText.text = $"Ammo: {currentAmmo} / {maxAmmo}";

@@ -3898,6 +3898,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8047735101884314581, guid: a081f85dd7624b44487b061f76979073, type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8047735101884314581, guid: a081f85dd7624b44487b061f76979073, type: 3}
+      propertyPath: m_PointLightOuterRadius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8047735102468220354, guid: a081f85dd7624b44487b061f76979073, type: 3}
       propertyPath: m_Name
       value: Player
