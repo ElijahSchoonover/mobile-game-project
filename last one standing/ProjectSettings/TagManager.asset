@@ -9,14 +9,15 @@ TagManager:
   - DamageTag
   - Killbox
   - Ammo
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
+  - PlayerBullet
   - 
   - 
   - 
