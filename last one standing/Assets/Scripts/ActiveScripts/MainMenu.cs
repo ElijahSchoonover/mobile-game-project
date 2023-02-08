@@ -25,4 +25,8 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("LevelSelect");
     }
+    public void LoadDificultySelect()
+    {
+        SceneManager.LoadScene("Dificulty Select");
+    }
 }
