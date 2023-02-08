@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4298874916254537310}
   - component: {fileID: 8840696986003450415}
   - component: {fileID: -9051231583095715254}
+  - component: {fileID: -2545612648400424125}
   m_Layer: 6
   m_Name: BulletPlaceholder
   m_TagString: PlayerBullet
@@ -123,3 +124,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-2545612648400424125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3350695572674389162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e14fe886c7eb3349afd8e240fb082bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 3350695572674389162}
