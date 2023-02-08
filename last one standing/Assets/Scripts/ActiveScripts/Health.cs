@@ -67,6 +67,10 @@ public class Health : MonoBehaviour
                 SceneManager.LoadScene(sceneName);
             }
         }
+        if (otherTag == "Killbox")
+        {
+            SceneManager.LoadScene(sceneName);
+        }
         /*else if (otherTag == "HealingPowerUp")
         {
             health += healing;
