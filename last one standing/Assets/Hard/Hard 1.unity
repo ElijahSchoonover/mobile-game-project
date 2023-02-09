@@ -119652,6 +119652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1211769123}
   - component: {fileID: 1211769122}
+  - component: {fileID: 1211769124}
   m_Layer: 0
   m_Name: 669479__garuda1982__electric-guitar-melody-5
   m_TagString: Untagged
@@ -119679,7 +119680,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 155.16269
+  MinDistance: 177.47852
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -119770,6 +119771,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!167 &1211769124
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211769121}
+  m_Enabled: 1
+  m_MinDistance: 14.61541
+  m_MaxDistance: 15000
+  m_ReverbPreset: 22
+  m_Room: -1000
+  m_RoomHF: -1000
+  m_DecayTime: 2.81
+  m_DecayHFRatio: 0.14
+  m_Reflections: 429
+  m_ReflectionsDelay: 0.014
+  m_Reverb: 1023
+  m_ReverbDelay: 0.021
+  m_HFReference: 5000
+  m_Diffusion: 80
+  m_Density: 60
+  m_LFReference: 250
+  m_RoomLF: 0
 --- !u!1 &1224526890
 GameObject:
   m_ObjectHideFlags: 0
