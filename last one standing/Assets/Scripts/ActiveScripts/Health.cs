@@ -10,7 +10,7 @@ public class Health : MonoBehaviour
     public float health = 10.0f;
     public Slider slider;
     //public int maxHealth = 10;
-    public TextMeshProUGUI healthText;
+    //public TextMeshProUGUI healthText;
     //public int healing = 4;
     // name of the lose screen
     public string sceneName;
@@ -34,7 +34,7 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthText.text = $"Health: {health}";
+        //healthText.text = $"Health: {health}";
     }
     
     private void OnCollisionEnter2D(Collision2D collision)
