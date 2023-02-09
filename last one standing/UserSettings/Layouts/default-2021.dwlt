@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 124
+  controlID: 98
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 16
+  controlID: 99
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 17
+  controlID: 100
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -353,22 +353,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/CooperSandbox
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/CooperSandbox
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Cooper Carey\mobile-game-project\last one standing
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c66e0000
-    m_LastClickedID: 28358
-    m_ExpandedIDs: 00000000c66e0000ec6e0000ee6e0000f06e0000fe6e00002c6f00002e6f0000306f0000326f000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: fa6f0000
+    m_LastClickedID: 28666
+    m_ExpandedIDs: 00000000ea6f0000fa6f00000670000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -396,7 +396,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c66e0000
+    m_ExpandedIDs: 00000000ea6f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -424,7 +424,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300001c6d000028730000
+    m_ExpandedInstanceIDs: c62300001c6d00002873000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -526,7 +526,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5eddfeff46defeff74e2feff78e5feffbae9feff8ceefeff30effeffc6f0feffc8f4feff12fbfeff4cfcfeff0e32ffffdc32ffffac48ffff6449ffff7a4affffe84bffffba80ffffa481ffff16acffffe8acffff20c8ffff98ceffffe8d1ffff9cd2ffffe6d9ffffd0dbffff4adeffffaaf8ffff28fbffffac6f0000ee92000044b100000cc000003cc10000dec20000
+      m_ExpandedIDs: 40a9feff12aafeff3cabfeff7cacfeff62adfeffb2aefeff34b4feffc8b5feff8ee3feffb8e4feff8ee5feff72e6feff12e8feffc0e8feff72e9feff74eafeffd2ebfefff4effeff08fdfeff9e00ffff7407ffffcc09ffff7a0affff1e0bffff020cffff6c0fffff5849ffffe649ffffb853ffff1e5dffff5260ffffd280ffff1882ffff1284ffff4885ffffda87ffffe48affff488dffffe68dffff1296ffff8a98ffff0e9cffffae9cffff88d9ffff44daffffece7ffff10f8ffff28fbffffeaa300003ea40000e2ab000052bc000010c20000e0c70000f2c70000a2c800008cd70000b2d70000c4d70000d6d70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -797,9 +797,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.366705, y: 1.9869666, z: 1.6213266}
+    m_Target: {x: 5.73317, y: 0.73936296, z: 9.114421}
     speed: 2
-    m_Value: {x: 6.366705, y: 1.9869666, z: 1.6213266}
+    m_Value: {x: 5.73317, y: 0.73936296, z: 9.114421}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -850,9 +850,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 13.137442
+    m_Target: 21.2613
     speed: 2
-    m_Value: 13.137442
+    m_Value: 21.2613
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -870,7 +870,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.11863422, y: 0.7019371, z: -0.12035456, w: -0.69190234}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 

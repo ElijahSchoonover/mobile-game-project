@@ -22,7 +22,7 @@ public class PlayerShoot : MonoBehaviour
         timer += Time.deltaTime;
         if (Time.timeScale == 1)
         {
-            if (Input.GetButtonDown("Fire1") && timer >= shootDelay && currentAmmo > 0 && Time.timeScale == 1)
+            if (Input.GetButtonDown("Fire1") && timer >= shootDelay && currentAmmo > 0)
             {
                 GameObject bulletSpawn = Instantiate(bullet, transform.position, Quaternion.identity);
                 Vector3 mousePosition = Input.mousePosition;
