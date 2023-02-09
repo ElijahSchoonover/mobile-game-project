@@ -270,6 +270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 621439727}
   - component: {fileID: 621439726}
+  - component: {fileID: 621439728}
   m_Layer: 0
   m_Name: 346200__levelclearer__battle
   m_TagString: Untagged
@@ -297,7 +298,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 33.99755
+  MinDistance: 57.964245
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -388,6 +389,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!167 &621439728
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621439725}
+  m_Enabled: 1
+  m_MinDistance: 10
+  m_MaxDistance: 150
+  m_ReverbPreset: 4
+  m_Room: -1000
+  m_RoomHF: -1200
+  m_DecayTime: 1.49
+  m_DecayHFRatio: 0.54
+  m_Reflections: -370
+  m_ReflectionsDelay: 0.007
+  m_Reverb: 1030
+  m_ReverbDelay: 0.011
+  m_HFReference: 5000
+  m_Diffusion: 100
+  m_Density: 60
+  m_LFReference: 250
+  m_RoomLF: 0
 --- !u!1 &1583956820
 GameObject:
   m_ObjectHideFlags: 0
