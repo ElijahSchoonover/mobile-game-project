@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-
+using UnityEngine.EventSystems;
 public class PlayerShoot : MonoBehaviour
 {
     public GameObject bullet;
@@ -16,13 +16,14 @@ public class PlayerShoot : MonoBehaviour
     public int maxAmmo;
     public int ammoFoundAmount;
     public TextMeshProUGUI ammoText;
+
     // Update is called once per frame
     void Update()
     {
         timer += Time.deltaTime;
         if (Time.timeScale == 1)
         {
-            if (Input.GetButtonDown("Fire1") && timer >= shootDelay && currentAmmo > 0)
+            if (Input.GetButtonDown("Fire1") && timer >= shootDelay && currentAmmo > 0 && !IsMouseOverUI())
             {
                 GameObject bulletSpawn = Instantiate(bullet, transform.position, Quaternion.identity);
                 Vector3 mousePosition = Input.mousePosition;
@@ -52,5 +53,9 @@ public class PlayerShoot : MonoBehaviour
                 currentAmmo = maxAmmo;
             }
         }
+    }
+    private bool IsMouseOverUI()
+    {
+        return EventSystem.current.IsPointerOverGameObject();
     }
 }

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System;
 public class Movement : MonoBehaviour
 {
     public float speed = 2.5f;
@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
     public Joystick joystick;
     float horizontalMove;
     float verticalMove;
+    public float deadZoneSize;
     //public AudioClip potionDrink;
     // Start is called before the first frame update
     void Start()
@@ -19,13 +20,13 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //float xInput = Input.GetAxisRaw("Horizontal");
+        float xInput = Input.GetAxisRaw("Horizontal");
         
-        if (joystick.Horizontal >= .2f)
+        if (joystick.Horizontal >= deadZoneSize)
         {
             horizontalMove = 1f;
         }
-        else if (joystick.Horizontal <= -0.2f)
+        else if (joystick.Horizontal <= -deadZoneSize)
         {
             horizontalMove = -1f;
         }
@@ -34,11 +35,11 @@ public class Movement : MonoBehaviour
             horizontalMove = 0f;
         }
 
-        if (joystick.Vertical >= .2f)
+        if (joystick.Vertical >= deadZoneSize)
         {
             verticalMove = 1f;
         }
-        else if (joystick.Vertical <= -0.2f)
+        else if (joystick.Vertical <= -deadZoneSize)
         {
             verticalMove = -1f;
         }
@@ -48,13 +49,14 @@ public class Movement : MonoBehaviour
         }
         // Debug.Log(xInput);
 
-        //float yInput = Input.GetAxisRaw("Vertical");
+        float yInput = Input.GetAxisRaw("Vertical");
         //GetComponent<Animator>().SetFloat("xInput", xInput);
         //GetComponent<Animator>().SetFloat("yInput", yInput);
 
         Vector2 moveDirection = new Vector2(horizontalMove, verticalMove);
-
+        //Vector2 pCMoveDirection = new Vector2(xInput, yInput);
         GetComponent<Rigidbody2D>().velocity = moveDirection * speed;
+        //GetComponent<Rigidbody2D>().velocity = pCMoveDirection * speed;
        
         
         
