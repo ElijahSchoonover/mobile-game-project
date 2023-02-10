@@ -9,7 +9,7 @@ public class CoinCollecting : MonoBehaviour
 {
     public int coinCount = 0;
     public int coinsNeeded = 10;
-    public TextMeshProUGUI coinText;
+    //public TextMeshProUGUI coinText;
     public string sceneName;
 
     // Start is called before the first frame update
@@ -21,7 +21,7 @@ public class CoinCollecting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        coinText.text = $"Coins: {coinCount} / {coinsNeeded}";
+        //coinText.text = $"Coins: {coinCount} / {coinsNeeded}";
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
