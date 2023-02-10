@@ -653,7 +653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   easySceneName: Easy Level Select
   normalSceneName: Normal Level Select
-  hardSceneName: 
+  hardSceneName: Hard Level Select
 --- !u!1 &1252132444
 GameObject:
   m_ObjectHideFlags: 0
