@@ -614,7 +614,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1420726167}
         m_TargetAssemblyTypeName: LevelMenu, Assembly-CSharp
-        m_MethodName: LoadLevelFour
+        m_MethodName: LoadLevelSix
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1422,7 +1422,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1420726167}
         m_TargetAssemblyTypeName: LevelMenu, Assembly-CSharp
-        m_MethodName: LoadLevelFour
+        m_MethodName: LoadLevelFive
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
