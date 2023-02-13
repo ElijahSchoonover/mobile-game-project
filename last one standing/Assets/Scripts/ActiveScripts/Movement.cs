@@ -20,8 +20,9 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float yInput = Input.GetAxisRaw("Vertical");
         float xInput = Input.GetAxisRaw("Horizontal");
-        
+
         if (joystick.Horizontal >= deadZoneSize)
         {
             horizontalMove = 1f;
@@ -49,14 +50,14 @@ public class Movement : MonoBehaviour
         }
         // Debug.Log(xInput);
 
-        float yInput = Input.GetAxisRaw("Vertical");
+        
         //GetComponent<Animator>().SetFloat("xInput", xInput);
         //GetComponent<Animator>().SetFloat("yInput", yInput);
 
         Vector2 moveDirection = new Vector2(horizontalMove, verticalMove);
-        Vector2 pCMoveDirection = new Vector2(xInput, yInput);
+        //Vector2 pCMoveDirection = new Vector2(xInput, yInput);
         GetComponent<Rigidbody2D>().velocity = moveDirection * speed;
-        GetComponent<Rigidbody2D>().velocity = pCMoveDirection * speed;
+        //GetComponent<Rigidbody2D>().velocity = pCMoveDirection * speed;
        
         
         
