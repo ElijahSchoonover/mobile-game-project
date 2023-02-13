@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class LoseScreen : MonoBehaviour
 {
+    public int levelNumber;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,24 @@ public class LoseScreen : MonoBehaviour
     void Update()
     {
         
+    }
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+    public void Restart()
+    {
+        if (Dificulty.isEasy)
+        {
+            SceneManager.LoadScene($"easy {levelNumber}");
+        }
+        else if (Dificulty.isNormal)
+        {
+
+        }
+        else if (Dificulty.isHard)
+        {
+            SceneManager.LoadScene($"Hard {levelNumber}");
+        }
     }
 }
