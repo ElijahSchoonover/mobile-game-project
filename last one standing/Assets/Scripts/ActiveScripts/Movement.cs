@@ -54,9 +54,9 @@ public class Movement : MonoBehaviour
         //GetComponent<Animator>().SetFloat("yInput", yInput);
 
         Vector2 moveDirection = new Vector2(horizontalMove, verticalMove);
-        //Vector2 pCMoveDirection = new Vector2(xInput, yInput);
+        Vector2 pCMoveDirection = new Vector2(xInput, yInput);
         GetComponent<Rigidbody2D>().velocity = moveDirection * speed;
-        //GetComponent<Rigidbody2D>().velocity = pCMoveDirection * speed;
+        GetComponent<Rigidbody2D>().velocity = pCMoveDirection * speed;
        
         
         
