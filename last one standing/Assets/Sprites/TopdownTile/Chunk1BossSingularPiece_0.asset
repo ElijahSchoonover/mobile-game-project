@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Chunk1BossSingularPiece_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -623670293, guid: d6f80f9b7ebdd9a49a7e159377d8743b, type: 3}
+  m_Sprite: {fileID: -696090107, guid: 852d5a68940f63741906ce245925d9a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
