@@ -45,13 +45,21 @@ public class WinMenu : MonoBehaviour
         {
             SceneManager.LoadScene($"easy {nextLevelNumber}");
         }
+        else if (Dificulty.isEasy && nextLevelNumber > 3)
+        {
+            SceneManager.LoadScene("EasyFinish");
+        }
         else if (Dificulty.isNormal)
         {
 
         }
-        else if (Dificulty.isHard)
+        else if (Dificulty.isHard && nextLevelNumber < 7 )
         {
             SceneManager.LoadScene($"Hard {nextLevelNumber}");
+        }
+        else if (Dificulty.isHard && nextLevelNumber > 6)
+        {
+            SceneManager.LoadScene("HardFinish");
         }
     }
     public void Quit()
@@ -61,6 +69,6 @@ public class WinMenu : MonoBehaviour
     }
     public void MainMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Main Menu");
     }
 }

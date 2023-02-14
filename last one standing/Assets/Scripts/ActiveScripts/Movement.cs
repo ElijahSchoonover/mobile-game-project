@@ -20,8 +20,9 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float yInput = Input.GetAxisRaw("Vertical");
         float xInput = Input.GetAxisRaw("Horizontal");
-        
+
         if (joystick.Horizontal >= deadZoneSize)
         {
             horizontalMove = 1f;
@@ -49,7 +50,7 @@ public class Movement : MonoBehaviour
         }
         // Debug.Log(xInput);
 
-        float yInput = Input.GetAxisRaw("Vertical");
+        
         //GetComponent<Animator>().SetFloat("xInput", xInput);
         //GetComponent<Animator>().SetFloat("yInput", yInput);
 
