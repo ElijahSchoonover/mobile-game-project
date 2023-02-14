@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class WinMenu : MonoBehaviour
 {
     public string restartName;
-    public string nextLevelEasy;
-    public string nextLevelNormal;
-    public string nextLevelHard;
+    //public string nextLevelEasy;
+    //public string nextLevelNormal;
+    //public string nextLevelHard;
     public int lastLevelNumber;
     public int nextLevelNumber;
     // Start is called before the first frame update
@@ -49,9 +49,13 @@ public class WinMenu : MonoBehaviour
         {
             SceneManager.LoadScene("EasyFinish");
         }
-        else if (Dificulty.isNormal)
+        else if (Dificulty.isNormal && nextLevelNumber < 5)
         {
-
+            SceneManager.LoadScene($"normal {nextLevelNumber}");
+        }
+        else if (Dificulty.isNormal && nextLevelNumber > 4)
+        {
+            SceneManager.LoadScene("NormalFinish");
         }
         else if (Dificulty.isHard && nextLevelNumber < 7 )
         {
