@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class WinMenu : MonoBehaviour
 {
     public string restartName;
-    public string nextLevelEasy;
-    public string nextLevelNormal;
-    public string nextLevelHard;
+    //public string nextLevelEasy;
+    //public string nextLevelNormal;
+    //public string nextLevelHard;
     public int lastLevelNumber;
     public int nextLevelNumber;
     // Start is called before the first frame update
