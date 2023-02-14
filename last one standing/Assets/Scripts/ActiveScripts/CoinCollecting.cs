@@ -34,6 +34,29 @@ public class CoinCollecting : MonoBehaviour
         else if (otherTag == "End" && coinCount >= coinsNeeded)
         {
             SceneManager.LoadScene(sceneName);
+            Scene activeScene = SceneManager.GetActiveScene();
+            switch (activeScene.name)
+            {
+                case "easy 1":
+                        LevelMenu.level1EasyWin = true; break;
+                case "easy 2":
+                        LevelMenu.level2EasyWin = true; break;
+                case "easy 3":
+                        LevelMenu.level3EasyWin = true; break;
+                case "Hard 1":
+                        LevelMenu.level1HardWin = true; break;
+                case "Hard 2":
+                        LevelMenu.level2HardWin = true; break;
+                case "Hard 3":
+                        LevelMenu.level3HardWin = true; break;
+                case "Hard 4":
+                        LevelMenu.level4HardWin = true; break;
+                case "Hard 5":
+                        LevelMenu.level5HardWin = true; break;
+                case "Hard 6":
+                        LevelMenu.level6HardWin = true; break;
+            }
+                
         }
     }
 }
