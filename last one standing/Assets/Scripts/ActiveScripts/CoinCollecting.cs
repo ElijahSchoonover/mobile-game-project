@@ -45,6 +45,12 @@ public class CoinCollecting : MonoBehaviour
                         LevelMenu.level3EasyWin = true; break;
                 case "normal 1": 
                         LevelMenu.level1NormalWin = true; break;
+                case "normal 2":
+                        LevelMenu.level2NormalWin = true; break;
+                case "normal 3":
+                        LevelMenu.level3NormalWin = true; break;
+                case "normal 4":
+                        LevelMenu.level4NormalWin = true; break;
                 case "Hard 1":
                         LevelMenu.level1HardWin = true; break;
                 case "Hard 2":
