@@ -29,9 +29,9 @@ public class WinMenu : MonoBehaviour
         {
             SceneManager.LoadScene($"easy {lastLevelNumber}");
         }
-        else if (Dificulty.isNormal)
+        else if (Dificulty.isNormal && lastLevelNumber <= 4)
         {
-            
+            SceneManager.LoadScene($"normal {lastLevelNumber}");
         }
         else if (Dificulty.isHard)
         {
