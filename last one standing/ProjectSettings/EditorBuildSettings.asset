@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: 089a4218af92fed429ccb3ff4e86ea0b
+  - enabled: 1
     path: Assets/Scenes/Dificulty Select.unity
     guid: 42c4b9022d2a3744f92b98b35498f0cf
   - enabled: 1
@@ -50,6 +53,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/easy/easy 3.unity
     guid: 7903e395d4b1cee4e9c1d5feb75fcc1f
+  - enabled: 1
+    path: Assets/easy/easy boss.unity
+    guid: 9653fc073565b6b4c925e3bf7a9d1069
   - enabled: 1
     path: Assets/Scenes/EasyFinish.unity
     guid: d9ab63d2baad53849b4a52143b49a0a8

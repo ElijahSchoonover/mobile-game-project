@@ -28,7 +28,7 @@ public class LoseScreen : MonoBehaviour
         }
         else if (Dificulty.isNormal)
         {
-
+            SceneManager.LoadScene($"normal {levelNumber}");
         }
         else if (Dificulty.isHard)
         {
