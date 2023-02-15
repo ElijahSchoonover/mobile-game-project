@@ -22,6 +22,8 @@ public class Movement : MonoBehaviour
     {
         float yInput = Input.GetAxisRaw("Vertical");
         float xInput = Input.GetAxisRaw("Horizontal");
+        verticalMove = yInput;
+        horizontalMove = xInput;
 
         if (joystick.Horizontal >= deadZoneSize)
         {
@@ -31,10 +33,10 @@ public class Movement : MonoBehaviour
         {
             horizontalMove = -1f;
         }
-        else
+        /*else
         {
             horizontalMove = 0f;
-        }
+        }*/
 
         if (joystick.Vertical >= deadZoneSize)
         {
@@ -44,10 +46,10 @@ public class Movement : MonoBehaviour
         {
             verticalMove = -1f;
         }
-        else
+        /*else
         {
             verticalMove = 0f;
-        }
+        }*/
         // Debug.Log(xInput);
 
         
