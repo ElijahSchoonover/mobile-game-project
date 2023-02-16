@@ -22,6 +22,7 @@ public class EnemyShoot : MonoBehaviour
         // Checks if player is close enough to enemy, then sets the velocity of the enemy
         if (shootDist <= close)
         {
+            
             //GetComponent<Animator>().SetBool("isClose", true);
             if (timer >= shootDelay)
             {
