@@ -1644,15 +1644,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level1Easy: 
-  level1Normal: 
+  level1Normal: normal 1
   level1Hard: 
   level2Easy: 
-  level2Normal: 
+  level2Normal: normal 2
   level2Hard: 
   level3Easy: 
-  level3Normal: 
+  level3Normal: normal 3
   level3Hard: 
-  level4Normal: 
+  level4Normal: normal 4
   level4Hard: 
   level5Hard: 
   level6Hard: 
