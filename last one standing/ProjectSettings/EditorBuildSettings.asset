@@ -18,31 +18,31 @@ EditorBuildSettings:
     path: Assets/Scenes/Dificulty Select.unity
     guid: 42c4b9022d2a3744f92b98b35498f0cf
   - enabled: 1
-    path: Assets/Scenes/Easy Level Select.unity
+    path: Assets/Scenes/Level Selects/Easy Level Select.unity
     guid: ebc9c29e460fb8246b0c45b8d3a2f25d
   - enabled: 1
-    path: Assets/Scenes/Normal Level Select.unity
+    path: Assets/Scenes/Level Selects/Normal Level Select.unity
     guid: 55b3f80bd84d04048994bad2443f6aad
   - enabled: 1
-    path: Assets/Scenes/Hard Level Select.unity
+    path: Assets/Scenes/Level Selects/Hard Level Select.unity
     guid: 197b612538a38bf4db16cf40412ea062
   - enabled: 1
-    path: Assets/Scenes/WinScreen1.unity
+    path: Assets/Scenes/WinScreens/WinScreen1.unity
     guid: 2a7905a6120f9c74088d883639b5ca11
   - enabled: 1
-    path: Assets/Scenes/WinScreen2.unity
+    path: Assets/Scenes/WinScreens/WinScreen2.unity
     guid: 59c8c497ad4f46f4b95af6798856cc4f
   - enabled: 1
-    path: Assets/Scenes/WinScreen3.unity
+    path: Assets/Scenes/WinScreens/WinScreen3.unity
     guid: 21c28546c06d0c04fa1e0bba4a6e74b1
   - enabled: 1
-    path: Assets/Scenes/LoseScreen1.unity
+    path: Assets/Scenes/LoseScreens/LoseScreen1.unity
     guid: 5cc26c7bf328a84479c18b2af92a1a98
   - enabled: 1
-    path: Assets/Scenes/LoseScreen2.unity
+    path: Assets/Scenes/LoseScreens/LoseScreen2.unity
     guid: 1412a7a98bf49904fb3a80182b256c9a
   - enabled: 1
-    path: Assets/Scenes/LoseScreen3.unity
+    path: Assets/Scenes/LoseScreens/LoseScreen3.unity
     guid: d723eed738411b643a1f837c1e14e2ed
   - enabled: 1
     path: Assets/easy/easy 1.unity
