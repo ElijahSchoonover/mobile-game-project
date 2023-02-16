@@ -22,13 +22,19 @@ public class EnemyShoot : MonoBehaviour
         // Checks if player is close enough to enemy, then sets the velocity of the enemy
         if (shootDist <= close)
         {
+            //GetComponent<Animator>().SetBool("isClose", true);
             if (timer >= shootDelay)
             {
                 GameObject bulletSpawn = Instantiate(prefab, transform.position, Quaternion.identity);
                 bulletSpawn.GetComponent<Rigidbody2D>().velocity = shootDirection * bulletSpeed;
                 Destroy(bulletSpawn, bulletLifetime);
                 timer = 0;
+                GetComponent<Animator>().SetTrigger("Shoot");
             }
+        }
+        if (shootDist > close)
+        {
+            //GetComponent<Animator>().SetBool("isClose", false);
         }
     }
 }
