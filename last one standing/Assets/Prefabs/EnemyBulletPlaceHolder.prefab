@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5060729001039880434}
   - component: {fileID: 6371808491038944465}
   - component: {fileID: -2892618965899710715}
+  - component: {fileID: 7872327733074919567}
   m_Layer: 7
   m_Name: EnemyBulletPlaceHolder
   m_TagString: DamageTag
@@ -123,3 +124,16 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &7872327733074919567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3700752207087506192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e14fe886c7eb3349afd8e240fb082bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 3700752207087506192}
