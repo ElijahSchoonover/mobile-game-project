@@ -59,4 +59,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EasyFinish.unity
     guid: d9ab63d2baad53849b4a52143b49a0a8
+  - enabled: 1
+    path: Assets/normal/normal 1.unity
+    guid: de1b81ebc843fbe41bcbdcad92f50db7
+  - enabled: 1
+    path: Assets/normal/normal 2.unity
+    guid: c411f3a7d099c97428279a75ec3cef7d
+  - enabled: 1
+    path: Assets/normal/normal 3.unity
+    guid: 73a4b59a61f391842a68da26ec23a3b8
+  - enabled: 1
+    path: Assets/normal/normal 4.unity
+    guid: b01bb32aa7bd25e4895025b03206e9bc
   m_configObjects: {}
