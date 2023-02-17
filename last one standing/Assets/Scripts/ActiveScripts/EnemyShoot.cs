@@ -12,12 +12,8 @@ public class EnemyShoot : MonoBehaviour
     public float shootDelay = 1.0f;
     float timer = 0.0f;
     // Update is called once per frame
-    void Update()
+    void Start()
     {
-        timer += Time.deltaTime;
-        Vector3 shootDirection = player.transform.position - transform.position;
-        float shootDist = shootDirection.magnitude;
-        shootDirection.Normalize();
         if (Dificulty.isEasy == true)
         {
             shootDelay *= 1.2f;
@@ -30,6 +26,14 @@ public class EnemyShoot : MonoBehaviour
         {
             shootDelay *= 0.75f;
         }
+    }
+    void Update()
+    {
+        timer += Time.deltaTime;
+        Vector3 shootDirection = player.transform.position - transform.position;
+        float shootDist = shootDirection.magnitude;
+        shootDirection.Normalize();
+        
         // Checks if player is close enough to enemy, then sets the velocity of the enemy
         if (shootDist <= close)
         {
