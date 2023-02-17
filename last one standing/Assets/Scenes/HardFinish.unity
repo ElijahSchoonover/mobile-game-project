@@ -494,9 +494,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartName: 
-  nextLevelEasy: 
-  nextLevelNormal: 
-  nextLevelHard: 
   lastLevelNumber: 0
   nextLevelNumber: 0
 --- !u!114 &1622612539
@@ -641,7 +638,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You've seen all we have to offer!
+  m_text: You've seen all there is to offer!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
