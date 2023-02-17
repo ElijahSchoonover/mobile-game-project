@@ -3372,6 +3372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 318d38a341a098145b269c091297a2d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  restartSceneName: 
 --- !u!114 &1943357024
 MonoBehaviour:
   m_ObjectHideFlags: 0

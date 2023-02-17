@@ -18,7 +18,18 @@ public class EnemyShoot : MonoBehaviour
         Vector3 shootDirection = player.transform.position - transform.position;
         float shootDist = shootDirection.magnitude;
         shootDirection.Normalize();
+        if (Dificulty.isEasy == true)
+        {
+            shootDelay *= 1.2f;
+        }
+        else if (Dificulty.isNormal == true)
+        {
 
+        }
+        else if (Dificulty.isHard == true)
+        {
+            shootDelay *= 0.75f;
+        }
         // Checks if player is close enough to enemy, then sets the velocity of the enemy
         if (shootDist <= close)
         {
@@ -37,5 +48,6 @@ public class EnemyShoot : MonoBehaviour
         {
             //GetComponent<Animator>().SetBool("isClose", false);
         }
+
     }
 }
