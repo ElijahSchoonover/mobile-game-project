@@ -66,6 +66,9 @@ EditorBuildSettings:
     path: Assets/normal/normal 2.unity
     guid: c411f3a7d099c97428279a75ec3cef7d
   - enabled: 1
+    path: Assets/normal/normal boss 1.unity
+    guid: c5d34c1dcbc69d448905102960904603
+  - enabled: 1
     path: Assets/normal/normal 3.unity
     guid: 73a4b59a61f391842a68da26ec23a3b8
   - enabled: 1
