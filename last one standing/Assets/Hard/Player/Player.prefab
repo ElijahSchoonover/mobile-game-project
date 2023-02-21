@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1402859222195511807}
   - component: {fileID: 1402859222195511800}
   - component: {fileID: 1402859222195511805}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1402859222237078624}
   - component: {fileID: 1402859222237078631}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,9 +244,10 @@ GameObject:
   - component: {fileID: 1402859223078747507}
   - component: {fileID: 7318748372863507922}
   - component: {fileID: 6795541833489581389}
-  m_Layer: 0
+  - component: {fileID: 159442649429252872}
+  m_Layer: 3
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -414,3 +415,24 @@ MonoBehaviour:
   health: 10
   slider: {fileID: 0}
   sceneName: 
+--- !u!114 &159442649429252872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402859223078747518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c506c43eaa91d419b78c2a0fc2ec0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 3350695572674389162, guid: a539f827a2dffbd4b9d6750d0b989a3c, type: 3}
+  speed: 7
+  bulletLifeTime: 1.5
+  shootSound: {fileID: 8300000, guid: 834c4ce0d771c2e41830853a2babcba6, type: 3}
+  shootDelay: 0.5
+  currentAmmo: 5
+  maxAmmo: 15
+  ammoFoundAmount: 3
+  ammoText: {fileID: 0}

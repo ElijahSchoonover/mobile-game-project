@@ -1349,7 +1349,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinCount: 0
   coinsNeeded: 0
-  sceneName: WinScreen2
+  sceneName: normal boss 1
 --- !u!1 &504035378
 GameObject:
   m_ObjectHideFlags: 0

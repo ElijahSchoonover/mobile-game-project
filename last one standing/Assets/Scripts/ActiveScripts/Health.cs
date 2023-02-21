@@ -42,7 +42,7 @@ public class Health : MonoBehaviour
         string otherTag = collision.gameObject.tag;
         if (otherTag == "DamageTag" && Dificulty.isNormal == true)
         {
-            health -= 2;
+            health -= 3;
             slider.value = health;
             if (health <= 0)
             {
@@ -51,7 +51,7 @@ public class Health : MonoBehaviour
         }
         else if (otherTag == "DamageTag" && Dificulty.isEasy == true)
         {
-            health--;
+            health -= 2;
             slider.value = health;
             if (health <= 0)
             {
@@ -60,7 +60,7 @@ public class Health : MonoBehaviour
         }
         else if (otherTag == "DamageTag" && Dificulty.isHard == true)
         {
-            health -= 3;
+            health -= 4;
             slider.value = health;
             if (health <= 0)
             {
