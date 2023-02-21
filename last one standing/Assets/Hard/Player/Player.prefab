@@ -428,11 +428,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 3350695572674389162, guid: a539f827a2dffbd4b9d6750d0b989a3c, type: 3}
-  speed: 2
+  speed: 7
   bulletLifeTime: 1.5
   shootSound: {fileID: 8300000, guid: 834c4ce0d771c2e41830853a2babcba6, type: 3}
   shootDelay: 0.5
-  currentAmmo: 0
+  currentAmmo: 5
   maxAmmo: 15
   ammoFoundAmount: 3
   ammoText: {fileID: 0}
