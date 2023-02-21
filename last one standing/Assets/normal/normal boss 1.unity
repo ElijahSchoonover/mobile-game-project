@@ -411,7 +411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 25
-  sceneName: WinScreen3
+  sceneName: WinScreen2
   slider: {fileID: 1735156254}
 --- !u!212 &173396037
 SpriteRenderer:
@@ -1083,7 +1083,7 @@ MonoBehaviour:
   bulletLifetime: 0
   player: {fileID: 1211198641}
   close: 15
-  shootDelay: 1
+  shootDelay: 0.75
 --- !u!1 &523077709
 GameObject:
   m_ObjectHideFlags: 0
@@ -2274,9 +2274,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4f98a61b2c75bd4faf494898233068b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  health: 15
   slider: {fileID: 2074312549}
-  sceneName: easy 3
+  sceneName: normal 2
 --- !u!114 &1211198643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2959,7 +2959,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289627901}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3320,8 +3320,22 @@ CompositeCollider2D:
         Y: 390000000
     - - X: 50000000
         Y: 230000000
-      - X: -40000000
+      - X: -29999900
         Y: 230000000
+      - X: -29999900
+        Y: 230000041
+      - X: -29999959
+        Y: 230000100
+      - X: -40000041
+        Y: 230000100
+      - X: -40000100
+        Y: 230000041
+      - X: -40000100
+        Y: 219999959
+      - X: -40000041
+        Y: 219999900
+      - X: -40000000
+        Y: 219999900
       - X: -40000000
         Y: 210000000
       - X: 50000000
@@ -3496,7 +3510,7 @@ CompositeCollider2D:
       - {x: -3.999971, y: 39}
     - - {x: 4.999971, y: 21}
       - {x: 4.999971, y: 23}
-      - {x: -4, y: 22.999971}
+      - {x: -4.00001, y: 22.999975}
       - {x: -3.999971, y: 21}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005

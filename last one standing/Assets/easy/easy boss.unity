@@ -150,7 +150,7 @@ MonoBehaviour:
   bulletLifetime: 0
   player: {fileID: 1113781068}
   close: 15
-  shootDelay: 1
+  shootDelay: 0.75
 --- !u!1 &149394340
 GameObject:
   m_ObjectHideFlags: 0
@@ -44804,7 +44804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4f98a61b2c75bd4faf494898233068b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
+  health: 15
   slider: {fileID: 1311121509}
   sceneName: easy 3
 --- !u!1 &1211604348
