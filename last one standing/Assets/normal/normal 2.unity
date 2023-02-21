@@ -1473,7 +1473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 15
   slider: {fileID: 1463871081}
-  sceneName: normal 2
+  sceneName: LoseScreen2
 --- !u!114 &475467890
 MonoBehaviour:
   m_ObjectHideFlags: 0
