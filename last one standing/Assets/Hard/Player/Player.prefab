@@ -244,6 +244,7 @@ GameObject:
   - component: {fileID: 1402859223078747507}
   - component: {fileID: 7318748372863507922}
   - component: {fileID: 6795541833489581389}
+  - component: {fileID: 159442649429252872}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -414,3 +415,24 @@ MonoBehaviour:
   health: 10
   slider: {fileID: 0}
   sceneName: 
+--- !u!114 &159442649429252872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402859223078747518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c506c43eaa91d419b78c2a0fc2ec0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  speed: 2
+  bulletLifeTime: 1.5
+  shootSound: {fileID: 0}
+  shootDelay: 0.5
+  currentAmmo: 0
+  maxAmmo: 15
+  ammoFoundAmount: 3
+  ammoText: {fileID: 0}
