@@ -74,4 +74,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/normal/normal 4.unity
     guid: b01bb32aa7bd25e4895025b03206e9bc
+  - enabled: 1
+    path: Assets/Hard/Hard 1.unity
+    guid: e0d2be5e1ce7b1a45a8460bae34679b0
+  - enabled: 1
+    path: Assets/Hard/Hard 2.unity
+    guid: 49077be4f57d2464691867005c32450f
+  - enabled: 1
+    path: Assets/Hard/Hard 3.unity
+    guid: 3f60c2fa4d8dc754085c1db782ceed83
+  - enabled: 1
+    path: Assets/Hard/Hard 4.unity
+    guid: 9691aa7ee20c3d04396c313f806b2532
+  - enabled: 1
+    path: Assets/Hard/Hard 5.unity
+    guid: 9fc0fca468cc2824ca70eb642e162ff1
+  - enabled: 1
+    path: Assets/Hard/Hard 6.unity
+    guid: 780889bbbc8dc8142a0421ea55553656
   m_configObjects: {}
