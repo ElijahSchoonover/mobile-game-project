@@ -36,6 +36,7 @@ public class PlayerShoot : MonoBehaviour
                 GetComponent<AudioSource>().PlayOneShot(shootSound);
                 timer = 0;
                 currentAmmo--;
+                Debug.Log("Successful Shot");
 
             }
         }
