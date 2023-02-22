@@ -23,7 +23,7 @@ SpriteAtlas:
     platformSettings:
     - serializedVersion: 3
       m_BuildTarget: DefaultTexturePlatform
-      m_MaxTextureSize: 32
+      m_MaxTextureSize: 1024
       m_ResizeAlgorithm: 0
       m_TextureFormat: -1
       m_TextureCompression: 0
@@ -49,6 +49,7 @@ SpriteAtlas:
     - {fileID: 2800000, guid: caf8b6e48f1d80a4b97da28d79bc774a, type: 3}
     - {fileID: 2800000, guid: f29508a9e70d8ac4198340b82679e6d5, type: 3}
     - {fileID: 2800000, guid: 98e59a8900e05c1439b157aab35bacc0, type: 3}
+    - {fileID: 2800000, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -157,6 +158,32 @@ SpriteAtlas:
   - {fileID: -1895430607, guid: f29508a9e70d8ac4198340b82679e6d5, type: 3}
   - {fileID: 99971153, guid: f29508a9e70d8ac4198340b82679e6d5, type: 3}
   - {fileID: 868889010, guid: f29508a9e70d8ac4198340b82679e6d5, type: 3}
+  - {fileID: -1529397220, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -1901916842, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: 322798568, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: 594596823, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -1944319185, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -1070100806, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -2063762729, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -971070497, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: 302131738, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -1347418740, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -983257917, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -171384044, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -465446259, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: 848540431, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: 1882923082, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -778793152, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: 502247997, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: 1736986456, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: 1893391191, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -942960697, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -1302770672, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: 679332321, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -1611151774, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: 660564953, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -1155514554, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
+  - {fileID: -1535743141, guid: 39d23b7c4e3543c4983b18957904f65f, type: 3}
   m_PackedSpriteNamesToIndex:
   - building_20
   - building_21
@@ -261,6 +288,32 @@ SpriteAtlas:
   - Chunk1SkyBackground_9
   - Chunk1SkyBackground_8
   - Chunk1SkyBackground_10
+  - SewersGround_19
+  - SewersGround_18
+  - SewersGround_2
+  - SewersGround_3
+  - SewersGround_0
+  - SewersGround_1
+  - SewersGround_6
+  - SewersGround_7
+  - SewersGround_4
+  - SewersGround_11
+  - SewersGround_5
+  - SewersGround_10
+  - SewersGround_13
+  - SewersGround_12
+  - SewersGround_8
+  - SewersGround_15
+  - SewersGround_9
+  - SewersGround_14
+  - SewersGround_17
+  - SewersGround_16
+  - SewersGround_20
+  - SewersGround_21
+  - SewersGround_22
+  - SewersGround_23
+  - SewersGround_24
+  - SewersGround_25
   m_RenderDataMap: {}
   m_Tag: Sprite Atlas
   m_IsVariant: 0
