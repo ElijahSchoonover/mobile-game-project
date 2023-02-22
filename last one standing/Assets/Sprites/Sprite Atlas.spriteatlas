@@ -108,6 +108,28 @@ SpriteAtlas:
   - {fileID: 505888660, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
   - {fileID: 25366151, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
   - {fileID: 1622418327, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: 1487348851, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: 317597668, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: -574071448, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: -1693025230, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: 505230321, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: 120587888, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: 1347678833, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: 1155816744, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: -1477930462, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: -1659279876, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: 481349977, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: 1238288131, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: 287296490, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: -1110425971, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: 611726617, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: 1672744980, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: 673754967, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: 947702895, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: -2063185853, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: -142212362, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: -1046903851, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - {fileID: -1693651533, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
   - {fileID: 975654837, guid: 5157501918036454b9d15f7d503f55c2, type: 3}
   - {fileID: 216373653, guid: 5157501918036454b9d15f7d503f55c2, type: 3}
   - {fileID: 539021518, guid: 5157501918036454b9d15f7d503f55c2, type: 3}
@@ -253,6 +275,28 @@ SpriteAtlas:
   - TornUpBuilding_10
   - TornUpBuilding_13
   - TornUpBuilding_12
+  - CloneRoom_11
+  - CloneRoom_10
+  - CloneRoom_13
+  - CloneRoom_12
+  - CloneRoom_15
+  - CloneRoom_14
+  - CloneRoom_17
+  - CloneRoom_16
+  - CloneRoom_19
+  - CloneRoom_18
+  - CloneRoom_8
+  - CloneRoom_9
+  - CloneRoom_2
+  - CloneRoom_3
+  - CloneRoom_0
+  - CloneRoom_1
+  - CloneRoom_6
+  - CloneRoom_7
+  - CloneRoom_4
+  - CloneRoom_5
+  - CloneRoom_20
+  - CloneRoom_21
   - Chunk1BaseTilesets_42
   - Chunk1BaseTilesets_43
   - Chunk1BaseTilesets_40
