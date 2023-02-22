@@ -13025,6 +13025,26 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &490572680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1402859223078747518, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
+  m_PrefabInstance: {fileID: 1720057738}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &490572689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490572680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e585018c3b1fe984787176cbc196aa10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinCount: 0
+  coinsNeeded: 0
+  sceneName: WinScreen6
 --- !u!1 &776043491
 GameObject:
   m_ObjectHideFlags: 0
@@ -15752,7 +15772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 347023506325049719, guid: 46df3571958b3504d9013c987ed31d65, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 347023506325049719, guid: 46df3571958b3504d9013c987ed31d65, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15858,7 +15878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 347023506325049719, guid: 46df3571958b3504d9013c987ed31d65, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 347023506325049719, guid: 46df3571958b3504d9013c987ed31d65, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16296,7 +16316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6795541833489581389, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
       propertyPath: sceneName
-      value: Hard 6
+      value: LoseScreen6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
@@ -16313,7 +16333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 347023506325049719, guid: 46df3571958b3504d9013c987ed31d65, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 347023506325049719, guid: 46df3571958b3504d9013c987ed31d65, type: 3}
       propertyPath: m_LocalPosition.x

@@ -45,6 +45,15 @@ EditorBuildSettings:
     path: Assets/Scenes/LoseScreens/LoseScreen3.unity
     guid: d723eed738411b643a1f837c1e14e2ed
   - enabled: 1
+    path: Assets/Scenes/LoseScreens/LoseScreen4.unity
+    guid: 9cd3b841930ef8247bcab56c0ee83663
+  - enabled: 1
+    path: Assets/Scenes/LoseScreens/LoseScreen5.unity
+    guid: 6c96d77add1f2ce4c866fd55e4f5a36f
+  - enabled: 1
+    path: Assets/Scenes/LoseScreens/LoseScreen6.unity
+    guid: ccbd1f95357e4054da91bb3ad3e2a476
+  - enabled: 1
     path: Assets/easy/easy 1.unity
     guid: 72fc605846c6a964585b6dd2d620fd49
   - enabled: 1
