@@ -93,6 +93,20 @@ SpriteAtlas:
   - {fileID: -1448476115, guid: caf8b6e48f1d80a4b97da28d79bc774a, type: 3}
   - {fileID: 1301926414, guid: caf8b6e48f1d80a4b97da28d79bc774a, type: 3}
   - {fileID: -1751559839, guid: caf8b6e48f1d80a4b97da28d79bc774a, type: 3}
+  - {fileID: 349183358, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: 1076606667, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: -1949506324, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: -1271431106, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: -311373120, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: 2094413120, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: -1090470471, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: -835901007, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: 287724024, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: 340088474, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: -223687398, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: 505888660, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: 25366151, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
+  - {fileID: 1622418327, guid: b1a36d279aa275146ab0eb8208b31d8e, type: 3}
   - {fileID: 975654837, guid: 5157501918036454b9d15f7d503f55c2, type: 3}
   - {fileID: 216373653, guid: 5157501918036454b9d15f7d503f55c2, type: 3}
   - {fileID: 539021518, guid: 5157501918036454b9d15f7d503f55c2, type: 3}
@@ -224,6 +238,20 @@ SpriteAtlas:
   - Chunk1BossRoom_12
   - Chunk1BossRoom_11
   - Chunk1BossRoom_10
+  - TornUpBuilding_8
+  - TornUpBuilding_9
+  - TornUpBuilding_2
+  - TornUpBuilding_3
+  - TornUpBuilding_0
+  - TornUpBuilding_1
+  - TornUpBuilding_6
+  - TornUpBuilding_7
+  - TornUpBuilding_4
+  - TornUpBuilding_5
+  - TornUpBuilding_11
+  - TornUpBuilding_10
+  - TornUpBuilding_13
+  - TornUpBuilding_12
   - Chunk1BaseTilesets_42
   - Chunk1BaseTilesets_43
   - Chunk1BaseTilesets_40
