@@ -250,7 +250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 20
-  enemy: {fileID: 8379959334650923773}
+  enemy: {fileID: 0}
   slider: {fileID: 8364783482282564566}
 --- !u!1001 &2734420806678621662
 PrefabInstance:
