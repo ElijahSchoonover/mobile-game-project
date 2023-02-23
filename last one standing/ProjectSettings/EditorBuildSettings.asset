@@ -84,6 +84,9 @@ EditorBuildSettings:
     path: Assets/normal/normal 4.unity
     guid: b01bb32aa7bd25e4895025b03206e9bc
   - enabled: 1
+    path: Assets/Scenes/NormalFinish.unity
+    guid: 5095915809d21054eab005c877b63039
+  - enabled: 1
     path: Assets/Hard/Hard 1.unity
     guid: e0d2be5e1ce7b1a45a8460bae34679b0
   - enabled: 1
