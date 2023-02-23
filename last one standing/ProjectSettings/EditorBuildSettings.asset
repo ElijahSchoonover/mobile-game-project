@@ -36,6 +36,15 @@ EditorBuildSettings:
     path: Assets/Scenes/WinScreens/WinScreen3.unity
     guid: 21c28546c06d0c04fa1e0bba4a6e74b1
   - enabled: 1
+    path: Assets/Scenes/WinScreens/WinScreen4.unity
+    guid: 7b9f5e6b426148647a854817f8e80fb8
+  - enabled: 1
+    path: Assets/Scenes/WinScreens/WinScreen5.unity
+    guid: 833facef2d2ad4c4995ce95f88a3974e
+  - enabled: 1
+    path: Assets/Scenes/WinScreens/WinScreen6.unity
+    guid: 78fd00468db8368438d1993eca734b73
+  - enabled: 1
     path: Assets/Scenes/LoseScreens/LoseScreen1.unity
     guid: 5cc26c7bf328a84479c18b2af92a1a98
   - enabled: 1
