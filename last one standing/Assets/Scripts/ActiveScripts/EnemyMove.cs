@@ -13,12 +13,15 @@ public class EnemyMove : MonoBehaviour {
 	private bool home = true;
 	public Vector3 paceDirection = new Vector3 (0f, 0f, 0f);
 	public float paceDistance = 3.0f;
-	// Use this for initialization
-	void Start () {
+    SpriteRenderer spriteRenderer;
+	Rigidbody2D rb;
+    // Use this for initialization
+    void Start () {
 		//get the spawn position so we know how to get home
 		startPosition = transform.position;
-
-	}
+        spriteRenderer = GetComponent<SpriteRenderer>();
+		rb = GetComponent<Rigidbody2D>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -41,7 +44,8 @@ public class EnemyMove : MonoBehaviour {
 				//go home
 				homeDirection.Normalize ();
 				GetComponent<Rigidbody2D> ().velocity = homeDirection * chaseSpeed;
-			}
+
+            }
 		} else {
 			Vector3 displacement = transform.position - startPosition;
 			float distanceFromStart = displacement.magnitude;
@@ -52,5 +56,23 @@ public class EnemyMove : MonoBehaviour {
 			paceDirection.Normalize ();
 			GetComponent<Rigidbody2D> ().velocity = paceDirection * chaseSpeed;
 		}
+		if (rb.velocity.x < 0)
+		{
+			spriteRenderer.flipX = true;
+		}
+		else if (rb.velocity.x > 0)
+		{
+			spriteRenderer.flipX = false;
+		}
+		/*
+		if (paceDirection > zero)
+		{
+			spriteRenderer.flipX = false;
+		}
+		else if (paceDirection < zero)
+		{
+			spriteRenderer.flipX = true;
+		}
+		*/
 	}
 }
