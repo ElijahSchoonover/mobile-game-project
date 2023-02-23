@@ -41014,6 +41014,9 @@ GameObject:
   - component: {fileID: 1583956823}
   - component: {fileID: 1583956822}
   - component: {fileID: 1583956821}
+  - component: {fileID: 1583956827}
+  - component: {fileID: 1583956826}
+  - component: {fileID: 1583956825}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -41132,6 +41135,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1583956825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583956820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4d686d676d58ee438a7ea7c571f33f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2.5
+  joystick: {fileID: 0}
+  deadZoneSize: 0
+--- !u!114 &1583956826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583956820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4f98a61b2c75bd4faf494898233068b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  slider: {fileID: 0}
+  sceneName: Hard Boss 1
+--- !u!114 &1583956827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583956820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2c506c43eaa91d419b78c2a0fc2ec0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  speed: 7
+  bulletLifeTime: 1.5
+  shootSound: {fileID: 0}
+  shootDelay: 0
+  currentAmmo: 10
+  maxAmmo: 50
+  ammoFoundAmount: 5
+  ammoText: {fileID: 0}
 --- !u!1001 &1690392750
 PrefabInstance:
   m_ObjectHideFlags: 0
