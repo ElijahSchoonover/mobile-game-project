@@ -66717,7 +66717,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 15
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 15
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -75384,8 +75384,8 @@ Tilemap:
     m_Data: {fileID: 1347678833, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -1659279876, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1046903851, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 1487348851, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
   - m_RefCount: 135
@@ -75404,8 +75404,8 @@ Tilemap:
     m_Data: {fileID: -1693025230, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -46830556, guid: d173dda05d90b0a46a0b9e4a54b4bd1b, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -1046903851, guid: f15440286645b824d86790cfb9cda1ee, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1109751738, guid: d173dda05d90b0a46a0b9e4a54b4bd1b, type: 3}
   m_TileMatrixArray:
@@ -75714,6 +75714,7 @@ GameObject:
   - component: {fileID: 2020117639}
   - component: {fileID: 2020117638}
   - component: {fileID: 2020117637}
+  - component: {fileID: 2020117641}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -75746,7 +75747,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020117636}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -75826,3 +75827,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2020117641
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020117636}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
