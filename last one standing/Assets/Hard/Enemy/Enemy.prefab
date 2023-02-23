@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 8379959334650923769}
   - component: {fileID: 8379959334650923768}
   - component: {fileID: 4081747938246937044}
+  - component: {fileID: 6056799800093582647}
   m_Layer: 8
   m_Name: Enemy
   m_TagString: Untagged
@@ -252,6 +253,24 @@ MonoBehaviour:
   health: 20
   enemy: {fileID: 0}
   slider: {fileID: 8364783482282564566}
+--- !u!114 &6056799800093582647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8379959334650923773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0695a55298ac3f94b8142a3ef693c1a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3700752207087506192, guid: 624ce1a550567a345974fb95eff94121, type: 3}
+  bulletSpeed: 10
+  bulletLifetime: 2
+  player: {fileID: 0}
+  close: 5
+  shootDelay: 1
 --- !u!1001 &2734420806678621662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -259,6 +278,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8379959334650923771}
     m_Modifications:
+    - target: {fileID: 953913050530885591, guid: ff88447524e78bd4b96aad7de0d587a2, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1547703020099223550, guid: ff88447524e78bd4b96aad7de0d587a2, type: 3}
       propertyPath: m_Name
       value: Canvas
