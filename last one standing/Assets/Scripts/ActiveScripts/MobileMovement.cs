@@ -27,6 +27,8 @@ public class MobileMovement : MonoBehaviour
         moveDir = 0;
 
         int inputDir = (int)Input.GetAxisRaw("Horizontal");
+        float xInput = Input.GetAxisRaw("Horizontal");
+        animator.SetFloat("xInput", xInput);
         moveDir += inputDir + mobileDir;
         moveDir = Mathf.Clamp(moveDir, -1, 1);
         Vector2 velocity = rb.velocity;
@@ -76,6 +78,10 @@ public class MobileMovement : MonoBehaviour
             rb.AddForce(new Vector2(0, 100 * jumpSpeed));
             grounded = false;
             animator.SetTrigger("Jump");
+        }
+        if (rb.velocity.y < -0.1f && !grounded)
+        {
+            animator.SetTrigger("Fall");
         }
 
     }
