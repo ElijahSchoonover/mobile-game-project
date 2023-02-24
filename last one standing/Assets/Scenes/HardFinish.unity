@@ -625,13 +625,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: New Piskel (4)_0
       objectReference: {fileID: 0}
+    - target: {fileID: 4320692946237747282, guid: 727416d564c1fd14d9ea0f87e04085c9, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5424528
+      objectReference: {fileID: 0}
+    - target: {fileID: 4320692946237747282, guid: 727416d564c1fd14d9ea0f87e04085c9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5424528
+      objectReference: {fileID: 0}
+    - target: {fileID: 4320692946237747282, guid: 727416d564c1fd14d9ea0f87e04085c9, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6771748691738453225, guid: 727416d564c1fd14d9ea0f87e04085c9, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6771748691738453225, guid: 727416d564c1fd14d9ea0f87e04085c9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 17.699123
+      value: 18.48968
       objectReference: {fileID: 0}
     - target: {fileID: 6771748691738453225, guid: 727416d564c1fd14d9ea0f87e04085c9, type: 3}
       propertyPath: m_LocalScale.y
@@ -639,7 +651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6771748691738453225, guid: 727416d564c1fd14d9ea0f87e04085c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0193
+      value: -0.0597
       objectReference: {fileID: 0}
     - target: {fileID: 6771748691738453225, guid: 727416d564c1fd14d9ea0f87e04085c9, type: 3}
       propertyPath: m_LocalPosition.y
