@@ -13045,6 +13045,26 @@ MonoBehaviour:
   coinCount: 0
   coinsNeeded: 0
   sceneName: WinScreen6
+--- !u!95 &490572698
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490572680}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 63a58581f1ce7d14e8751f36345b6638, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &776043491
 GameObject:
   m_ObjectHideFlags: 0
@@ -16266,9 +16286,29 @@ PrefabInstance:
       propertyPath: m_BackGroundColor.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1402859223078747505, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
+      propertyPath: m_Size.y
+      value: 0.9833173
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402859223078747505, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.50834256
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402859223078747506, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
+      propertyPath: m_Size.y
+      value: 0.22359693
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402859223078747506, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.9964914
+      objectReference: {fileID: 0}
     - target: {fileID: 1402859223078747516, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1402859223078747516, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 1402859223078747516, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16276,7 +16316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1402859223078747516, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: -1.69
       objectReference: {fileID: 0}
     - target: {fileID: 1402859223078747516, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16310,6 +16350,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1402859223078747517, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1883975617, guid: cff53548e91e20c4fb13b01b288c719c, type: 3}
     - target: {fileID: 1402859223078747518, guid: 65e24fec534224948b9b2f69d7cb4fb0, type: 3}
       propertyPath: m_Name
       value: Player
