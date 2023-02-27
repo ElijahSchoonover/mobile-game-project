@@ -102,15 +102,24 @@ EditorBuildSettings:
     path: Assets/Hard/Hard 2.unity
     guid: 49077be4f57d2464691867005c32450f
   - enabled: 1
+    path: Assets/Hard/Hard Boss 1.unity
+    guid: 73900d0a031a132428d6b94ff837891d
+  - enabled: 1
     path: Assets/Hard/Hard 3.unity
     guid: 3f60c2fa4d8dc754085c1db782ceed83
   - enabled: 1
     path: Assets/Hard/Hard 4.unity
     guid: 9691aa7ee20c3d04396c313f806b2532
   - enabled: 1
+    path: Assets/Hard/Hard Boss 2.unity
+    guid: bb2b090ce3b994344b72f4c7da7aff89
+  - enabled: 1
     path: Assets/Hard/Hard 5.unity
     guid: 9fc0fca468cc2824ca70eb642e162ff1
   - enabled: 1
     path: Assets/Hard/Hard 6.unity
     guid: 780889bbbc8dc8142a0421ea55553656
+  - enabled: 1
+    path: Assets/Scenes/HardFinish.unity
+    guid: df33e29dbc8e49941a5e77151100b263
   m_configObjects: {}
